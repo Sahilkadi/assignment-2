@@ -1,0 +1,144 @@
+1.What are the benefits of using CSS?
+    Separation of Content and Style. One of the most significant advantages of CSS is its ability to separate content from presentation. ...
+    Consistency.
+    Faster Loading Times. 
+    Responsive Design. 
+    Ease of Maintenance. 
+    Accessibility. 
+    Print-Friendly Pages. 
+    Global Styling.
+
+
+2.What are the disadvantages of CSS?
+    Browser Compatibility. 
+    Learning Curve. 
+    Lack of Security. 
+    Limited Layout Control. 
+    Performance Impact. 
+    Overriding Styles. 
+    Maintenance Challengs.
+
+
+
+3.What is the difference between CSS2 and CSS3?
+CSS2 introduced a new box model which included padding, borders, and margins. CSS3 introduced The
+ flexible box layout module, which allows for more flexible layouts.
+
+4.Name a few CSS style components ?
+Properties: These are human-readable identifiers that indicate which stylistic features you want to
+ modify. For example, font-size , width , background-color .
+
+Values: Each property is assigned a value. This value indicates how to style the property.
+
+5.What do you understand by CSS opacity?
+The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind 
+an element is hidden, and is the opposite of transparency.
+
+6.How can the background color of an element be changed?
+To add background color in HTML, use the CSS background-color property. Set it to the color name or code 
+you want and place it inside a style attribute. Then add this style attribute to an HTML element, like 
+a table, heading, div, or span tag.
+
+7.How can image repetition of the backup be controlled?
+To control the repetition of an image in the background, use the background-repeat property. You can use 
+no-repeat value for the background-repeat property if you do not want to repeat an image, in this case, 
+the image will display only once.
+
+8.What is the use of the background-position property?
+The background-position property sets the starting position of a background image. Tip: By default, a 
+background-image is placed at the top-left corner of an element, and repeated both vertically and 
+horizontally.
+
+9.Which property controls the image scroll in the background?
+The background-attachment property sets whether a background image scrolls with the rest of the page, or 
+is fixed.
+
+10.Why should background and color be used as separate properties?
+Why background and color are the separate properties if they should always be set together? There are two 
+reasons behind this: It enhances the legibility of style sheets. The background property is a complex 
+property in CSS, and if it is combined with color, the complexity will further increase.
+
+11.How to center block elements using CSS1?
+To centrally align the block elements, we can simply make use of the <center> tag. All the elements 
+within the <center> tag will be centrally aligned.
+
+12.How to maintain the CSS specifications?
+The CSS specifications are maintained by the World Wide Web Consortium (W3C). Even though every browser 
+supports CSS, there are many inconsistencies in the supported specification version. Some browsers even 
+have their own implementation of the specification and have proprietary (vendor) prefixes.
+
+13.What are the ways to integrate CSS as a web page?
+CSS may be added to HTML in three different ways. To style a single HTML element on the page, use Inline 
+CSS in a style attribute. By adding CSS to the head section of our HTML document, we can embed an 
+internal stylesheet. We can also connect to an external stylesheet that separates our CSS from our HTML
+
+14.What is embedded style sheets?
+An embedded style sheet is declared within the <head> element of an XHTML document. It applies to the 
+whole document, rather than just one element. Each style declaration (or CSS rule) gets applied to 
+everything in the document that matches that rule.
+
+15.What are the external style sheets?
+An external style sheet is a separate CSS file that can be accessed by creating a link within the head 
+section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an 
+external style sheet is placed within the head section of the page.
+
+16.What are the advantages and disadvantages of using external style sheets?
+Reusable styles: An external style sheet can be reused across multiple pages and websites, saving time 
+and making it easier to maintain a consistent look and feel. Improved performance: An external style 
+sheet is only loaded once, even if it is used on multiple pages.
+
+17.What is the meaning of the CSS selector?
+A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell 
+the browser which HTML elements should be selected to have the CSS property values inside the rule 
+applied to them.
+
+18.What are the media types allowed by CSS?
+tv,Monochrome,Braille,Handheld,Aural,Teleprinter,Resolution,Printing,Paper embossing,Projection,Hover,
+Computer monitor.
+
+19.What is the rule set?
+A CSS ruleset is various affirmations to various pieces or elements of the document. The objective is to apply
+a bunch of properties for certain distinct qualities to a solitary, or a particular arrangement of components in the connected HTML page.
+
+EXAMPLE:-
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <title>Rulesets in CSS</title>
+            <style>
+                h1 {
+                    color: green;
+                }
+
+                /* Selector */
+                p:first-child {
+
+                    /* Declaration-block */
+                    background-color: green;
+                    color: white;
+                    font-size: 15px;
+                    border-radius: 50px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+
+                body {
+                    text-align: center;
+                }
+            </style>
+        </head>
+
+        <body>
+            <div>
+                <p>Welcome To Largest Computer Science portal</p>
+
+                <h1>example of ruleset</h1>
+                <h2>CSS Rulesets</h2>
+
+                <p>example of ruleset </p>
+
+            </div>
+        </body>
+        </html>
+
